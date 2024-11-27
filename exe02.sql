@@ -23,13 +23,7 @@ VALUES
 ("Assassins Creed: Nova Roma", "Ubisoft", "RPG", "299.90"),
 ("Outlast 3", "Red Barrels", "Terror", "259.90");
 
-SELECT * FROM tb_jogos WHERE preco > 500;
-
-SELECT * FROM tb_jogos WHERE preco < 500;
-
-UPDATE tb_jogos
-SET preco = preco - 50
-WHERE genero = "Aventura";
+SELECT * FROM tb_jogos 
 
 
 
